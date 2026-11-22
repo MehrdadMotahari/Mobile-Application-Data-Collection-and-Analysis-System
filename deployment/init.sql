@@ -74,5 +74,7 @@ VALUES
   ('Pinno', 'app.pinno', 'Dating & Chat', TRUE),
   ('Instagram', 'com.instagram.android', 'Social Media', TRUE),
   ('Facebook', 'com.facebook.katana', 'Social Media', TRUE),
-  ('TikTok', 'com.zhiliaoapp.musically', 'Social Media', TRUE)
+  ('TikTok', 'com.zhiliaoapp.musically', 'Social Media', TRUE),
+  ('Eitaa', 'ir.eitaa.messenger', 'Messaging', TRUE),
+  ('Bale', 'ir.nasim', 'Messaging', TRUE)
 ON CONFLICT (package_name) DO NOTHING;
